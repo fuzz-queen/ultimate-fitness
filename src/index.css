@@ -1,0 +1,43 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    height: 1000px;
+  }
+  
+  nav {
+    /*width: 10%;*/
+    height: 300px;
+    background-color: #ccc;
+    padding: 5px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ccc;
+    height: auto;
+    overflow: auto;
+  }
+  
+  nav div {
+    background-color: #ccc;
+    overflow: auto;
+  }
+
+  main {
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+    background-color: #ddd;
+    padding: 5px;
+  }
